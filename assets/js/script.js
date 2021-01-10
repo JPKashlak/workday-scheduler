@@ -89,7 +89,7 @@ setTimeout(function(){
     location = ''
   },600000);
 
-
+// Run Functions
 loadText();
 colorCheck();
 centralClock();
