@@ -10,7 +10,7 @@ As the day progresses the tasks will change color by the hour to denote which ta
 * JQuery
 * Bootstrap
 * Moment.js
-* Iconic.js
+* Iconic
 ## Website
 THE URL WILL GO HERE
 ## Preview

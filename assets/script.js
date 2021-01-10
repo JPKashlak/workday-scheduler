@@ -14,7 +14,7 @@ var colorCheck = function() {
     $(".row").each( function() {
         var taskHour = this.id;
             if (taskHour == currentHour) {
-                $(`#${taskHour} > textarea`).addClass("bg-danger font-weight-bold");
+                $(`#${taskHour} > textarea`).addClass("bg-danger font-weight-bold text-light");
             }
             else if (taskHour < currentHour) {
                 $(`#${taskHour} > textarea`).addClass("bg-secondary text-light")
