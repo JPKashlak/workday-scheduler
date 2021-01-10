@@ -82,19 +82,12 @@ $("#save9").click(function() {
     $("#text7").val(localStorage.getItem('text7'))
     $("#text8").val(localStorage.getItem('text8'))
     $("#text9").val(localStorage.getItem('text9'))
-}
-  
-//  var id = $(this).parent().attr('id');
-    // var content = $(taskCell).value(); 
-        
+};
 
-
-    // var text = $(id, "textarea").text();
-    //     localStorage.setItem('text', text);
-    //     alert(localStorage.getItem('text'));
-    //     console.log(content);
-               
-// });
+// Refresh page every 10 minutes
+setTimeout(function(){
+    location = ''
+  },600000);
 
 
 loadText();

@@ -8,10 +8,11 @@ As the day progresses the tasks will change color by the hour to denote which ta
 * CSS
 * JavaScript
 * JQuery
-* Bootstrap
 * Moment.js
+* Bootstrap
 * Iconic
 ## Website
 THE URL WILL GO HERE
 ## Preview
-SCREENCAPS WILL GO HERE
+![screenshot1](./assets/images/screenshot1.png)
+![screenshot2](./assets/images/screenshot2.png)
