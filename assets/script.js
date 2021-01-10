@@ -25,60 +25,53 @@ var colorCheck = function() {
     });
 };
 
-// Save Textarea
+// Save Textareas
 $("#save1").click(function() {
     var taskCall = $("#text1").val();
-        localStorage.setItem('text1', taskCall);
-        alert(localStorage.getItem('text1'));
+    localStorage.setItem('text1', taskCall);
 });
 
 $("#save2").click(function() {
     var taskCall = $("#text2").val();
-        localStorage.setItem('text2', taskCall);
-        alert(localStorage.getItem('text2'));
+    localStorage.setItem('text2', taskCall);
 });
 
 $("#save3").click(function() {
     var taskCall = $("#text3").val();
-        localStorage.setItem('text3', taskCall);
-        alert(localStorage.getItem('text3'));
+    localStorage.setItem('text3', taskCall);
 });    
  
 $("#save4").click(function() {
     var taskCall = $("#text4").val();
-        localStorage.setItem('text4', taskCall);
-        alert(localStorage.getItem('text4'));
+    localStorage.setItem('text4', taskCall);
 }); 
  
 $("#save5").click(function() {
     var taskCall = $("#text5").val();
-        localStorage.setItem('text5', taskCall);
-        alert(localStorage.getItem('text5'));
+    localStorage.setItem('text5', taskCall);
 }); 
  
 $("#save6").click(function() {
     var taskCall = $("#text6").val();
-        localStorage.setItem('text6', taskCall);
-        alert(localStorage.getItem('text6'));
+    localStorage.setItem('text6', taskCall);
 }); 
  
 $("#save7").click(function() {
     var taskCall = $("#text7").val();
-        localStorage.setItem('text7', taskCall);
-        alert(localStorage.getItem('text7'));
+    localStorage.setItem('text7', taskCall);
 }); 
  
 $("#save8").click(function() {
     var taskCall = $("#text8").val();
-        localStorage.setItem('text8', taskCall);
-        alert(localStorage.getItem('text8'));
+    localStorage.setItem('text8', taskCall);
 }); 
  
 $("#save9").click(function() {
     var taskCall = $("#text9").val();
-        localStorage.setItem('text9', taskCall);
-        alert(localStorage.getItem('text9'));
-}); 
+    localStorage.setItem('text9', taskCall);
+});
+
+// Load Textareas
    var loadText = function() {
     $("#text1").val(localStorage.getItem('text1'))
     $("#text2").val(localStorage.getItem('text2'))
