@@ -12,7 +12,7 @@ As the day progresses the tasks will change color by the hour to denote which ta
 * Bootstrap
 * Iconic
 ## Website
-THE URL WILL GO HERE
+https://jpkashlak.github.io/workday-scheduler/
 ## Preview
 ![screenshot1](./assets/images/screenshot1.png)
 ![screenshot2](./assets/images/screenshot2.png)
